@@ -1,7 +1,7 @@
 :root {
     --color-principal: #1a4d8f;
     --color-acento: #3d1a8f;
-    --color-distintivo:#087aa7;
+    --color-hover: #2c6bb3;
     --color-texto: #333333;
     --color-fondo: #f5f5f5;
     --color-borde: #cccccc;
@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-distintivo);
+    color: var(--color-hover);
     text-decoration: underline;
 }
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="sobre_mi.html">Sobre mi</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contacto</h1>
+            <form method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" minlength="3" required>
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="3" required></textarea>
+                <label for="servicio">Servicio</label>
+                <select id="servicio" name="servicio">
+                    <option value="desarrollo_web">Desarrollo web</option>
+                    <option value="diseno_grafico">Diseño gráfico</option>
+                    <option value="marketing_digital">Marketing digital</option>
+                </select>
+
+                <fieldset>
+                    <legend>¿Cómo quieres que te contactemos?</legend>
+                    <input type="radio" id="correo" name="contacto" value="correo">
+                    <label for="correo">Por correo electrónico</label>
+                    <input type="radio" id="numero_telefono" name="contacto" value="numero_telefono">
+                    <label for="numero_telefono">Por teléfono</label>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Mi Sitio Web Randy Beola Planche. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

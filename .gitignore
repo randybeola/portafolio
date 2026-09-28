@@ -1,0 +1,10 @@
+# Notas personales
+notas/
+*.md
+
+# Archivos de Windows
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/

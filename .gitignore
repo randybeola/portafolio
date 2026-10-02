@@ -1,6 +1,7 @@
 # Notas personales
 notas/
 *.md
+!README.md
 
 # Archivos de Windows
 Thumbs.db

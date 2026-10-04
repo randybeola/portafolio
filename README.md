@@ -17,3 +17,7 @@ Sitio web personal y de servicios, construido con HTML y CSS.
 ## Autor
 
 Randy Beola Planche — La Habana, Cuba
+
+## Ver en línea
+
+https://randybeola.github.io/portafolio/
